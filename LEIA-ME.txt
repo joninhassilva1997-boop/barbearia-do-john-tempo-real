@@ -1,0 +1,24 @@
+BARBEARIA DO JOHN — APP DE GESTÃO V1
+
+O pacote é uma PWA: pode ser instalada no Android pelo navegador e usa o mesmo Supabase do site.
+
+1) Copie config.js.example para config.js.
+2) Em config.js coloque a URL e a chave PUBLISHABLE/anon do mesmo projeto Supabase do site.
+   Nunca coloque service_role/secret no navegador.
+3) No Supabase SQL Editor, execute supabase_migration.sql.
+4) No Supabase, habilite Realtime para public.bookings se ainda não estiver habilitado.
+5) Publique esta pasta no Vercel.
+6) Abra no celular, entre com o mesmo usuário administrativo e escolha “Instalar app”.
+7) Toque em “Ativar notificações”.
+
+V1 inclui:
+- Agenda do dia e filtros
+- Próximo cliente
+- Status de atendimento
+- Conclusão com forma de pagamento e valor recebido
+- Faturamento do dia
+- Fechamento simples do caixa por Pix/dinheiro/cartão
+- Atualização em tempo real de novos agendamentos enquanto o app estiver aberto
+- PWA instalável no Android
+
+Observação: notificações push quando o app estiver totalmente fechado exigem uma etapa adicional de Web Push/backend. A V1 já deixa a estrutura preparada para isso.

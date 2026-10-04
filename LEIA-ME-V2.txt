@@ -1,0 +1,12 @@
+BARBEARIA DO JOHN — APP V2
+
+Novidades:
+- Ao concluir um atendimento, o app pede valor recebido e forma de pagamento.
+- Formas: Pix, Dinheiro, Cartão e Outro.
+- O caixa do dia mostra total, Pix, Dinheiro, Cartão e ticket médio.
+- Botões de ação agora respeitam o status do atendimento.
+- Atendimentos concluídos não mostram Confirmar/Cancelar.
+
+IMPORTANTE:
+Antes de usar o caixa/pagamento, execute o arquivo supabase_migration_v2.sql no SQL Editor do mesmo projeto Supabase do site.
+Não é necessário fornecer senha ou service_role.

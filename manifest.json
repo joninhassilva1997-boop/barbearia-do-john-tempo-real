@@ -1,0 +1,10 @@
+{
+  "name":"Barbearia do John - Gestão",
+  "short_name":"John Gestão",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#070707",
+  "theme_color":"#0a0a0a",
+  "lang":"pt-BR",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
